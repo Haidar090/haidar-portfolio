@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.15);
+}  
+
+h1 {
+  text-align: center;
+  color: #a78bfa;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input {
+    Width: 100%;
+    Padding: 10px;
+    
+    Margin-top: 8px;
+    Margin-bottom: 15px;
+    margin-left: 10px;
+    
+    Border: 1px solid #ccc;
+    Border-radius: 4px;
+    
+    Box-sizing: border-box;
+}
+.input-section input {
+  flex: 1;
+}
+button {
+    Width: 80px;
+    Padding: 8px;
+    background: green;
+    Color: white;
+    height: 40px;
+    Border: none;
+    Border-radius: 5px;
+    Font-weight: bold;
+    Cursor: pointer
+    }
+ button:hoever{
+     background: black;
+ }
+ .notes-container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a2a2a;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: white;
+  border: 1px solid #3a3a3a;
+}
+
+.notes-container button {
+  width: 70px;
+  height: 32px;
+  padding: 4px;
+  font-size: 14px;
+} 
+#empty messages {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
